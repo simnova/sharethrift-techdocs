@@ -10,6 +10,9 @@ While the following may seem tedious, going through this process will save you h
   * `git --version`
     * should return 2.24.3 or greater
 * Node- > NVM - [Windows](https://github.com/coreybutler/nvm-windows)/[Mac](https://github.com/nvm-sh/nvm)&#x20;
+  * Mac
+    * touch \~/.zshrc
+  *
   * Windows - ([reference](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/))
     * Uninstall any versions of Node.js (from programs)
     * Delete any Node.js installation directories (ex: C:\Program Files\nodejs)
