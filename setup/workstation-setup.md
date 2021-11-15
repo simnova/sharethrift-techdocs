@@ -6,6 +6,9 @@ While the following may seem tedious, going through this process will save you h
 
 ### Workstation Setup
 
+* [GIT](https://git-scm.com/downloads)&#x20;
+  * `git --version`
+    * should return 2.24.3 or greater
 * Node- > NVM - [Windows](https://github.com/coreybutler/nvm-windows)/[Mac](https://github.com/nvm-sh/nvm)&#x20;
   * Windows - ([reference](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/))
     * Uninstall any versions of Node.js (from programs)
@@ -21,9 +24,6 @@ While the following may seem tedious, going through this process will save you h
     * Ensure that [Node](https://nodejs.org/en/) (LTS Version) is what is reported
       * `node --version`&#x20;
         * should return 14.17.5 or greater
-* [GIT](https://git-scm.com/downloads)&#x20;
-  * `git --version`
-    * should return 2.24.3 or greater
 * [.NET ](https://dotnet.microsoft.com/download)5 **SDK**- required for Function Extensions
   * dotnet --version
     * should return 5.0.400 or greater
