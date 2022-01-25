@@ -19,9 +19,10 @@ From the `azure-quickstart` directory open a command prompt or console and issue
 {% code title="Terminal / Command Propt" %}
 ```bash
 npm uninstall -g create-react-app
-npx create-react-app ui --template typescript --use-npm
+npx create-react-app ui --template typescript
 cd ui
 npm i -D typescript
+npm i prop-types @types/prop-types
 npm install @apollo/client graphql
 npm install react-router-dom @types/react-router-dom
 npm install antd
