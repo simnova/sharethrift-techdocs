@@ -6,25 +6,62 @@ description: (~17 minutes)
 
 
 
+## App Service Plans
+
+### East US 2 App Service Plan
+
+* App service plans (ASPs) allow the function to run for an extended period of time - and most times can be more affordable to run than the Consumption plan.
+* Navigate to the [Create App Service Plan](https://portal.azure.com/#create/Microsoft.AppServicePlanCreate) resource in the Azure Portal
+* Select the appropriate Subscription and the **rg-sharethrift** resource group
+* App Service Plan details
+  * Name: **service-east2-<\<random-number>>**
+    * _\*\* when creating for west 2 use **service-west2-<\<random-number>**_
+  * Operating System: **Linux**
+  * Region: **East US 2**
+    * _\*\*when creating for west 2 use **West US 2**_
+*   Pricing Tier
+
+    * Sku and size: **B1** (located under category of Dev / Test) \~$12.41/mo
+
+
+
+### West US 2 App Service Plan
+
+
+
+Repeat the same process above, but instead make the following changes
+
+* App Service Plan Name:
+  * **service-west2-<\<random-number>**
+* Select the Region:
+  * **US West 2**
+
+
+
 ### US East 2 Function
+
+* Start by creating an app service plan - we're selecting the minimal to get us going:
+*
+
 
 * Navigate to the [Create Function App](https://portal.azure.com/#create/Microsoft.FunctionApp) resource in the Azure Portal
 * Select the appropriate Subscription and the **rg-sharethrift** resource group
 * Instance Details
-  * Function App Name: **data-access-<\<random-number>> **
-    * _\*\* when creating for west 2 use **data-access-west<\<random-number>> **_
+  * Function App Name: **data-access-east2-<\<random-number>>**&#x20;
+    * _\*\* when creating for west 2 use **data-access-west2<\<random-number>>**_&#x20;
   * Publish: **code**
   * Runtime Stack: **Node.js**
-  * Version: **12 LTS**
+  * Version: **16 LTS (Preview)**
   * Region: **East US 2**
     * _\*\* when creating for west 2 use **West US 2**_
-  * Choose **Next : Hosting > **
+  * Choose **Next : Hosting >**&#x20;
 * Hosting Details:
-  * Storage Account: (select the **sharethrift\<random number> **storage account created earlier)
-    * _\*\* when creating for west 2 select the _**sharethriftwest\<random number> **account
+  * Storage Account: (select the **sharethrift\<random number>** storage account created earlier)
+    * _\*\* when creating for west 2 select the_ **sharethriftwest\<random number>** account
   * Operating System: **linux**
-  * Plan type: **Consumption (Serverless) **
-  * Choose Next: **Monitoring > **
+  * Plan type: **App service plan**
+  * Linux Plan: **service-east2 (B1)**
+  * Choose Next: Networking (preview) **> Monitoring**
 * Application Insights:
   * Enable Application Insights: **Yes**
   * Application Insights: **sharethrift (East US 2)**
@@ -41,8 +78,8 @@ description: (~17 minutes)
     * Improve Node performance ([details](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#functions\_worker\_process\_count))
       * Name: **FUNCTIONS\_WORKER\_PROCESS\_COUNT**
       * Value: **10**
-  * Choose** Save**
-  * Choose** Continue **(wait until completion)
+  * Choose **Save**
+  * Choose **Continue** (wait until completion)
 * Add CORS headers
   * In the function app just created navigate to CORS
   * Check the Enable Access-Control-Allow-Credentials
@@ -66,11 +103,11 @@ description: (~17 minutes)
 Repeat the same process above, but instead make the following changes
 
 * Name the function:
-  * &#x20;**data-access-west<\<random-number>> **
+  * &#x20;**data-access-west2<\<random-number>>**&#x20;
 * Select the Region:
   * **US West 2**
 * Select the storage account:
-  * **sharethriftwest\<random number> **storage account created earlier
+  * **sharethriftwest\<random number>** storage account created earlier
 * Select the application insights:
   * _**sharethriftwest (West US 2)**_
 
