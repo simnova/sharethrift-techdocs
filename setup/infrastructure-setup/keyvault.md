@@ -5,26 +5,26 @@ description: (~7 minutes)
 # KeyVault
 
 * Navigate to the [Create Key Vault](https://portal.azure.com/#create/Microsoft.KeyVault) resource in the Azure portal.
-* Select the appropriate subscription and choose the **rg-sharethrift **resource group.&#x20;
+* Select the appropriate subscription and choose the **rg-sharethrift** resource group.&#x20;
 * Instance Details:
-  * Key vault name: **sharethrift\<random number if needed>**
+  * Key vault name: **sharethrift-keyvault\<random number if needed>**
   * Region: **East US 2**
   * Pricing Tier: **Standard**
-  * Choose : **Next > Access Policy **
+  * Choose : **Next > Access Policy**&#x20;
 * Access Policy
-  * Permission Model : **Azure role-based access control (preview)**
+  * Permission Model : **Azure role-based access control**&#x20;
   * Choose : **Next > Networking**
 * Networking
-  * Connectivity Method: **Public endpoint (all networks)**
+  * Connectivity Method: **All networks**
     * **TODO: See how selected networks can work**
       * Allow trusted Microsoft services to bypass this firewall? : **Yes**
-  * Choose :** Review + Create**
-  * Choose :** Create** (wait for completion)
+  * Choose : **Review + Create**
+  * Choose : **Create** (wait for completion)
   * Click **Go to Resource**
 *   In the newly created Key Vault, navigate to the **Access Control (IAM)** menu item
 
     * Choose **+ Add**  then **Add role assignment**
-    * Role: **Key Vault Administrator (preview)**
+    * Role: **Key Vault Administrator**
     * Assign Access To: **User, group, or service principal**
     * Select:  **(choose your account from the list below, it may look a little weird)**
     * Click **Save**

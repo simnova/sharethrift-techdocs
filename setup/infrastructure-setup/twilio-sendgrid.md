@@ -1,15 +1,18 @@
 # Twilio SendGrid
 
-* Navigate to the Create [SendGrid Account ](https://portal.azure.com/#create/SendGrid.sendgrid\_azure)in the Azure Portal
+* Navigate to the [Twilio Sendgrid](https://portal.azure.com/#create/sendgrid.tsg-saas-offer)[ ](https://portal.azure.com/#create/SendGrid.sendgrid\_azure)in the Azure Portal Marketplace
 * Choose the appropriate subscription and the rg-sharethrift resource group.
 * Location : **(US) East US 2**
-* Account Details
+* SaaS Details
   * Name: **sharethrift**
-  * Password: <\<use a super strong password>>
-  * Pricing Tier: (leave the default : free)
+  * Plan: (leave the default : free)
 * Contact Details - Fill in your personal information (Recommended to use personal email)
-* Click : **Review + Create**
-* Click: **Create **(wait for creation)
+* Click : **Review + Subscribe**
+  * **Contact Details:**
+    * Name: \<leave as-is>
+    * Primary Email: \<your personal email, you MUST monitor this email>
+    * Primary Phone: \<your personal phone, must be live phone, in case of any issues>
+* Click: **Subscribe** (wait for creation)
 * Click: **Go to Resource**
 * In the Sendgrid account just created, under Overview -> Click **Manage**
   * You may be prompted for send confirmation email, go ahead and allow for that and verify your email.

@@ -20,7 +20,7 @@ npm install @types/node
 npm i @graphql-tools/graphql-file-loader @graphql-tools/load @graphql-tools/schema graphql-scalars
 npm i -D @graphql-codegen/cli @graphql-codegen/typescript @graphql-codegen/typescript-resolvers
 npm i -D @graphql-codegen/introspection @graphql-codegen/typed-document-node @graphql-codegen/typescript-operations
-npm i @graphql-tools/load-files @graphql-tools/schema @graphql-tools/stitch
+npm i @graphql-tools/load-files @graphql-tools/schema @graphql-tools/stitch @graphql-tools/json-file-loader
 npm i graphql-fields graphql-middleware graphql-mongo-fields graphql-shield
 
 npm i -D mongodb-memory-server
