@@ -22,13 +22,26 @@ npm uninstall -g create-react-app
 npx create-react-app ui --template typescript
 cd ui
 npm i -D typescript
-npm i prop-types @types/prop-types
+
+##CRACO IS USED FOR LESS (AntDesign Customization)
+npm i @craco/craco@7.0.0-alpha.0 --force
+npm i -D craco-less --force
+npm i process browserify-zlib stream-browserify util buffer assert crypto-browserify
+
+## Tailwind CSS is handy for UI design
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p #-p creates a postcss.config.js file
+
 npm install @apollo/client graphql
-npm install react-router-dom @types/react-router-dom
+npm install react-router-dom # ?? @types/react-router-dom
 npm install antd
-npx -p @storybook/cli sb init
+
+
+#npm i prop-types @types/prop-types
+npx sb init --builder webpack5
+##npx -p @storybook/cli sb init
 npm i -D @storybook/addons @storybook/theming chromatic
-npm i -D storybook-addon-playwright
+##npm i -D storybook-addon-playwright
 ```
 {% endcode %}
 
