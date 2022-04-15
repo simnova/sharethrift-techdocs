@@ -38,6 +38,7 @@ The NodeJS community has excellent support for MongoDB and the maturity in worki
     * Database ID: **sharethrift**
     * Provision throughput: **Checked**
       * **Important:** This allows each collection to share in the 1,000 RU allotment for the free tier.
+    * Database Throughput(autoscale):**Autoscale**
     * Max R/Us: (leave default 1,000 )
     * Click OK
 
