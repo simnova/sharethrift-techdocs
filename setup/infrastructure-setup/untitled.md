@@ -22,7 +22,7 @@ The NodeJS community has excellent support for MongoDB and the maturity in worki
   * Location: **(US) East US 2**
   * Apply Free Tier Discount: **Apply**
   * Account Type: **Production**
-  * Version:** 3.6**
+  * Version: **4.2**
   * Multi-region Writes: **Enable (may want to Disable for lower cost)**
   * Availability Zones: **Enable**
   * Click Next: **Networking**
@@ -32,11 +32,13 @@ The NodeJS community has excellent support for MongoDB and the maturity in worki
     * ~~Allow access from Azure Portal: **Allow**~~
     * ~~Allow access from my IP: **Allow**~~
   * Click **Review + create**
-  * Click **Create **(wait for completion)
+  * Click **Create** (wait for completion)
 * Click Data Explorer
   * Choose New Database (Pane will show)
     * Database ID: **sharethrift**
-    * Max R/Us: (leave default)
+    * Provision throughput: **Checked**
+      * Important This allows each collection to share in the 1,000 RU allotment for the free tier.
+    * Max R/Us: (leave default 1,000 )
     * Click OK
 
 #### Recommended Reading
