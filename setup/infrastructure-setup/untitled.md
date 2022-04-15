@@ -37,7 +37,7 @@ The NodeJS community has excellent support for MongoDB and the maturity in worki
   * Choose New Database (Pane will show)
     * Database ID: **sharethrift**
     * Provision throughput: **Checked**
-      * Important This allows each collection to share in the 1,000 RU allotment for the free tier.
+      * **Important:** This allows each collection to share in the 1,000 RU allotment for the free tier.
     * Max R/Us: (leave default 1,000 )
     * Click OK
 
