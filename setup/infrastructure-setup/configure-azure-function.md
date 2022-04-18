@@ -72,12 +72,18 @@ Repeat the same process above, but instead make the following changes
 * Add App Settings for improved performance
   * In the function app just created navigate to Configuration&#x20;
   * Choose **+ New Application Setting** for each of the following
-    * Improve Cold Start performance ([details](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package))
-      * Name: **WEBSITE\_RUN\_FROM\_PACKAGE**
-      * Value: **1**
-    * Improve Node performance ([details](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#functions\_worker\_process\_count))
-      * Name: **FUNCTIONS\_WORKER\_PROCESS\_COUNT**
-      * Value: **10**
+    * Ensure the [Node App gets rebuilt on the Linux VM ](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package#general-considerations)that runs the function when deployed
+      * Name: **SCM\_DO\_BUILD\_DURING\_DEPLOYMENT**
+      * Value: **true**
+      * Name: **ENABLE\_ORYX\_BUILD**
+      * Value: **true**
+    * Do not add the following - these no longer seem to work..&#x20;
+      * Improve Cold Start performance ([details](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package))
+        * Name: **WEBSITE\_RUN\_FROM\_PACKAGE**
+        * Value: **1**
+      * Improve Node performance ([details](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#functions\_worker\_process\_count))
+        * Name: **FUNCTIONS\_WORKER\_PROCESS\_COUNT**
+        * Value: **10**
   * Choose **Save**
   * Choose **Continue** (wait until completion)
 * Add CORS headers
