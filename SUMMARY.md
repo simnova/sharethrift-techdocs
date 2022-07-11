@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-## Initial Setup <a href="setup" id="setup"></a>
+## Initial Setup <a href="#setup" id="setup"></a>
 
 * [Workstation Installs](setup/workstation-setup.md)
 * [Codebase](setup/introduction/README.md)
@@ -18,6 +18,7 @@
   * [Resource Group](setup/infrastructure-setup/resource-group.md)
   * [Create AAD B2C Instance](setup/infrastructure-setup/create-aad-b2c-instance/README.md)
     * [Identity Experience Framework](setup/infrastructure-setup/create-aad-b2c-instance/identity-experience-framework.md)
+    * [Configure Session Behavior](setup/infrastructure-setup/create-aad-b2c-instance/configure-session-behavior.md)
   * [Storage Account & CDN](setup/infrastructure-setup/create-azure-storage-account/README.md)
     * [CDN Rules](setup/infrastructure-setup/create-azure-storage-account/configure-azure-cdn.md)
     * [Configure Azure BLOB Storage](setup/infrastructure-setup/create-azure-storage-account/configure-azure-blob-storage.md)
@@ -45,7 +46,7 @@
     * [Create Pipeline](setup/cicd-setup/cicd-for-data-access/create-pipeline.md)
     * [Data Access YAML](setup/cicd-setup/cicd-for-data-access/yaml-for-functions.md)
 
-## Application Structure <a href="application-design" id="application-design"></a>
+## Application Structure <a href="#application-design" id="application-design"></a>
 
 * [Connect Apollo](application-design/connect-apollo/README.md)
   * [Apollo Overview](application-design/connect-apollo/apollo-overview.md)
