@@ -40,7 +40,9 @@ Register an application screen will show.
 
 * Name: **Sharethrift Partner Portal** \
   **external verification**
-* Supported account types: **Accounts in this organizational directory only (Sharethrift B2C Dev only - Single tenant)**
+*   Supported account types: **Accounts in this organizational directory only (Sharethrift B2C Dev only - Single tenant)**
+
+    <mark style="color:red;">Note:</mark> If you want to test Custom Policies in Identity Experience Framework, you must choose:  **Accounts in any identity provider or organizational directory (for authenticating users with user flows)**
 * Redirect URI:
   * Type Dropdown: **Single-page application (SPA)**
   * URL: **http://localhost:4000**
