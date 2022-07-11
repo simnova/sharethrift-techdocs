@@ -19,7 +19,7 @@ Complete the steps in [Identity Experience Framework](identity-experience-framew
 </UserJourneyBehaviors>
 ```
 
-The \<RelyingParty> should look like this after you add this
+The \<RelyingParty> should look like this after you add the above code.
 
 {% code title="SignUpOrSignin.xml" %}
 ```xml
