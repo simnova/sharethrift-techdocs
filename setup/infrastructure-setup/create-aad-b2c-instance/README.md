@@ -8,7 +8,7 @@ IMPORTANT: Before starting - Add the _Microsoft.AzureActiveDirectory_ resource p
 
 Navigate to your [AAD Directory](https://portal.azure.com/#blade/Microsoft\_AAD\_IAM/ActiveDirectoryMenuBlade/Overview) and click **Create a tenant** at the top of the screen.
 
-The **Create a tenant screen **will be shown.
+The **Create a tenant screen** will be shown.
 
 Select the **Azure Active Directory (B2C)** as your choice. - Click Next
 
@@ -38,7 +38,7 @@ Choose **New registration**
 
 Register an application screen will show.
 
-* Name: **Sharethrift Partner Portal **\
+* Name: **Sharethrift Partner Portal** \
   **external verification**
 * Supported account types: **Accounts in this organizational directory only (Sharethrift B2C Dev only - Single tenant)**
 * Redirect URI:
@@ -70,9 +70,9 @@ Select **Certificates & secrets** in menu to left under the Manage category
 Under _Client secrets_ choose **New client secret** (a dialog will appear):
 
 * Description: **programmatic-account-management**
-* Expires:** Custom**
-* Start:** \<today>**
-* End:** \<max expiration date shown>**
+* Expires: **Custom**
+* Start: **\<today>**
+* End: **\<max expiration date shown>**
 
 Once created you will see "**Value**" copy this someplace safe, _you will not be able to reference this value after seeing it at this time._
 
@@ -112,13 +112,13 @@ Search for **Sharethrift Account Management**, select it and click **Add**
 
 In menu on left under **Manage** choose **App registrations**
 
-Click **New registration **at the top of the screen
+Click **New registration** at the top of the screen
 
 * Name: **IdentityExperienceFramework**
 * Supported account types: **Accounts in this organizational directory  only (Sharethrift B2C only - Single Tenant)**
 * Redirect URI:
   * Type Dropdown: **Web**
-  * URL: **https://<\<your-tenant-name>>.b2clogin.com/<\<your-tenant-name>>.onmicrosoft.com **(e.g.&#x20;
+  * URL: **https://<\<your-tenant-name>>.b2clogin.com/<\<your-tenant-name>>.onmicrosoft.com** (e.g.&#x20;
     * https://sharethriftb2c.b2clogin.com/sharthriftb2c.onmicrosoft.com
 * Click Register (you'll automatically navigate to new app)
 
@@ -128,12 +128,12 @@ Add a scope (accept the default random name), Save and continue
 
 * Click **Add a scope**
 * Scope name: **user\_impersonation**&#x20;
-* Admin consent display name: **Access IdentityExperienceFramework **
+* Admin consent display name: **Access IdentityExperienceFramework**&#x20;
 * Admin consent description: **Allow the application to access IdentityExperienceFramework on behalf of the signed-in user.**
-* State:** Enabled**
-* Click** Add Scope:**
+* State: **Enabled**
+* Click **Add Scope:**
 
-**Navigate back to the App Registrations under the Experience Framework by clicking on "identity experience framework" at the top of the screen **
+**Navigate back to the App Registrations under the Experience Framework by clicking on "identity experience framework" at the top of the screen**&#x20;
 
 ****
 
@@ -141,7 +141,7 @@ Add a scope (accept the default random name), Save and continue
 
 In menu on left under **Manage** choose **App registrations**
 
-Click **New registration **at the top of the screen
+Click **New registration** at the top of the screen
 
 * Name: **ProxyIdentityExperienceFramework**
 * Supported account types: **Accounts in this organizational directory  only (Sharethrift B2C only - Single Tenant)**
@@ -153,27 +153,27 @@ Click **New registration **at the top of the screen
 
 In menu on left, under Manage, choose Authentication
 
-In Advanced Settings -> Allow Public Flows - Choose **Yes **
+In Advanced Settings -> Allow Public Flows - Choose **Yes**&#x20;
 
-Click** Save **at top of screen
+Click **Save** at top of screen
 
 
 
 In menu on left, under **Manage** choose **API Permissions**
 
-Click** Add a permission,** the **Request API permissions** blade shows:
+Click **Add a permission,** the **Request API permissions** blade shows:
 
-Select and API: **My APIs**
+Select an API: **My APIs**
 
 Choose **IdentityExperienceFramework**
 
-Choose** : Delegated permissions**
+Choose **: Delegated permissions**
 
-Select Permissions:** check user\_impersonation**
+Select Permissions: **check user\_impersonation**
 
-Click** Add Permissions**
+Click **Add Permissions**
 
-Click** Grant admin consent for Sharethrift B2C**, a dialog will pop asking you to confirm, click** Yes**
+Click **Grant admin consent for Sharethrift B2C**, a dialog will pop asking you to confirm, click **Yes**
 
 
 
@@ -227,7 +227,7 @@ Click Add, the popup blade on the right will show:
 
 * Options: **Manual**
 * Name: **RestApiUsername**
-* Secret: **<\<username>> **_(set to something secret )_
+* Secret: **<\<username>>** _(set to something secret )_
 * Set activation date: \<leave unchecked>
 * Set expiration date: \<leave unchecked>
 * Key usage: **Encryption**
@@ -239,7 +239,7 @@ Click Add, the popup blade on the right will show:
 
 * Options: **Manual**
 * Name: **RestApiPassword**
-* Secret: **<\<password>> **_ (set to something secret and strong)_
+* Secret: **<\<password>>**  _(set to something secret and strong)_
 * Set activation date: \<leave unchecked>
 * Set expiration date: \<leave unchecked>
 * Key usage: **Encryption**
