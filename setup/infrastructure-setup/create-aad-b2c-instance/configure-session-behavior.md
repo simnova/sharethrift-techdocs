@@ -19,7 +19,7 @@ Complete the steps in [Identity Experience Framework](identity-experience-framew
 </UserJourneyBehaviors>
 ```
 
-The \<RelyingParty> should look like this after you add the above code.
+The \<RelyingParty> element should look like this after you add the above code.
 
 {% code title="SignUpOrSignin.xml" %}
 ```xml
@@ -58,3 +58,15 @@ The \<RelyingParty> should look like this after you add the above code.
 </TrustFrameworkPolicy>xm
 ```
 {% endcode %}
+
+There are some things you may need to change here to suit your usage.
+
+\
+1\) "Scope" defines the granularity. Possible values are: **Suppressed**, **Tenant**, **Application**, and **Policy**
+
+2\) \<SessionExpiryType> is based off of the number you set for \<SessionExpiryInSeconds>.\
+**Rolling**: It will keep the user logged in as long as they are performing actions on the application. Countdown starts after the last user action.\
+**Absolute**: This option will force the user to reauthenticate after the specified number of seconds have passed.
+
+3\) \<SessionExpiryInSeconds> can take a value including and between 900 seconds (15 minutes) and 86,400 seconds (24 hours).
+
