@@ -21,11 +21,10 @@ From the `azure-quickstart` directory open a command prompt or console and issue
 npm uninstall -g create-react-app
 npx create-react-app ui --template typescript
 cd ui
-npm i -D typescript
 
 ##CRACO IS USED FOR LESS (AntDesign Customization)
-npm i @craco/craco@7.0.0-alpha.0 --force
-npm i -D craco-less --force
+npm i @craco/craco@7.0.0-alpha.3 
+npm i -D craco-less@2.1.0-alpha.0
 npm i process browserify-zlib stream-browserify util buffer assert crypto-browserify
 
 ## Tailwind CSS is handy for UI design
