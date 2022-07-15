@@ -101,7 +101,7 @@ Edit the **launch.json** file
 
 Add a **tasks.json** file
 
-{% code title="azure-quickstart/ui/.vscode/tasks.json" %}
+{% code title="azure-quickstart/ui/.vscode/task.json" %}
 ```javascript
 {
   "version": "2.0.0",

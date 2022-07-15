@@ -30,7 +30,6 @@ In main.js add the following (note the port number must match..)\
 ```bash
 npm install -D storybook-addon-playwright
 npm i -D @storybook/addon-controls
-npm i -D @storybook/addon-knobs
 ```
 {% endcode %}
 
@@ -45,7 +44,11 @@ module.exports = {
   addons: [
   ...
     '@storybook/addon-controls',
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
     '@storybook/addon-knobs',
+    '@storybook/preset-create-react-app',
     'storybook-addon-playwright/preset',
     'storybook-addon-playwright/register',
   ],
