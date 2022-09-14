@@ -29,7 +29,7 @@ Modify the launch.json file of the UI project to add reference to a .env file wh
 Crate a new fie .env and place your AAD Client Secret into it
 
 {% hint style="info" %}
-**IMPORTANT!!  **Be sure to exclude .env from GIT by adding .gitignore
+**IMPORTANT!!**  Be sure to exclude .env from GIT by adding .gitignore
 {% endhint %}
 
 {% code title="/azure-quickstart/ui/.env" %}
@@ -58,7 +58,7 @@ Now we'll add a Provider to access MSAL, this will consist of a few files:
 
 Lets start by creating the additional directory structure:
 
-Under :` /azure-quickstart/ui/src/`  create the following directories : `/components/core/msal`
+Under : `/azure-quickstart/ui/src/`  create the following directories : `/components/core/msal`
 
 Next let's create each of the files in `/azure-quickstart/ui/src/components/core/msal`
 

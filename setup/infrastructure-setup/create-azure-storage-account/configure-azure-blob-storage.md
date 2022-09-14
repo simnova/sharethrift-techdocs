@@ -6,7 +6,7 @@ Setting up the CORS permissions allows your web application running from one dom
 
 To provide permissions:
 
-1. Navigate to [http://portal.azure.com/](http://portal.azure.com)
+1. Navigate to [http://portal.azure.com/](http://portal.azure.com/)
 2. Go to your BLOB Storage Container
 3. In the left panel: Go to Settings -> CORS&#x20;
 4. Provide the following data for Blob Service:

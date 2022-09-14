@@ -17,7 +17,7 @@ Give Azure DevOps permissions to Azure Storage
 
 
 * In Azure DevOps, Go to Project Settings > Service Connections >  Manage Service Connection Roles
-  * Select the service connection named after your Subscription _or_ create a new one using **Azure Resource Manager** as the connection type with the Authentication method of **Service Principal (automatic) **and Scope Level of **Subscription **and Subscription name created in Azure Portal with resource group created in **rg-sharethrift** Service Connection Name of **ShareThrift**&#x20;
+  * Select the service connection named after your Subscription _or_ create a new one using **Azure Resource Manager** as the connection type with the Authentication method of **Service Principal (automatic)** and Scope Level of **Subscription** and Subscription name created in Azure Portal with resource group created in **rg-sharethrift** Service Connection Name of **ShareThrift**&#x20;
   * Click Manage Service Principal, a new browser tab to the Azure Portal will open
   * Note the Display Name
 * Navigate the the sharethrift storage Account

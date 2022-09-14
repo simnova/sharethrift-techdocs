@@ -39,7 +39,7 @@ At bottom of screen:
       * Select appropriate Databases Connection type (e.g. **PostgreSQL**)
     * Choose **Open** next to the source connection that you selected
       * Linked service:&#x20;
-        * Click **+ New** ( connection pane shows) _or choose an existing connection _
+        * Click **+ New** ( connection pane shows) _or choose an existing connection_&#x20;
           * Name: **accountsdb**
           * (other appropriate details.. may need to set "not validate sever certificate")
         * Select the appropriate table and click preview data to ensure data is correct
@@ -51,11 +51,11 @@ At bottom of screen:
       * Select **Azure CosmosDB (MongoDB API)**
     * Choose Open next to the sink dataset that you selected
       * Linked service:
-        * Click **+ New **(connection pane shows)
+        * Click **+ New** (connection pane shows)
         * Name: **sharetriftdb**
         * (other appropriate details..)
         * Account selection method : **From Azure subscription**
-          * Subscription: **<\<your subscription>> **
+          * Subscription: **<\<your subscription>>**&#x20;
           * Account: **sharethrift**
           * DBName: **sharethrift**
       * Collection Name: **accounts**

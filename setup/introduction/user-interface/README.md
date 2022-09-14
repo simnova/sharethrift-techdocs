@@ -10,6 +10,7 @@ The UI Project will rely on the following:
 * **Apollo Client** - Allows the UI to interact with the Apollo GraphQL data tier,&#x20;
 * **React Router** - An easy to use router for react.
 * **Ant Design** - A versatile UI framework for React.&#x20;
+* **Tailwindcss** - Adds css styling through class names
 * **Storybook**&#x20;
 
 Begin by initializing the project with these libraries.&#x20;
@@ -178,3 +179,4 @@ Go Ahead and launch the website by using VSCode Debugger.
 * React Router - [Documentation](https://reactrouter.com/web/guides/quick-start)
 * Apollo Client - [Get Started](https://www.apollographql.com/docs/react/get-started/)
 * Ant Design - [Introduction](https://ant.design/docs/react/introduce)
+* Tailwindcss - [Introduction](https://tailwindcss.com/)

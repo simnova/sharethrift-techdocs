@@ -20,7 +20,7 @@ In **terminal** go to `azure-quickstart/data-access` and issue the following com
 npm install applicationinsights
 ```
 
-Add "APPINSIGHTS\_INSTRUMENTATIONKEY" to your localsettings.json with the **Instrumentation Key **from application insights
+Add "APPINSIGHTS\_INSTRUMENTATIONKEY" to your localsettings.json with the **Instrumentation Key** from application insights
 
 Instrumentation Key: In Azure: Go to the Application Insights resource named sharethrift. The Instrumental key will be under essentials.
 
@@ -38,7 +38,7 @@ Instrumentation Key: In Azure: Go to the Application Insights resource named sha
 ```
 {% endcode %}
 
-Add the following **to the top **of the` index.ts` to initialize the App Insights client as early as possible and to import the types needed for the plugin. Note in the configuration we've defined a custom property of "functionArea" to help organize our logs and make them easier to query.
+Add the following **to the top** of the `index.ts` to initialize the App Insights client as early as possible and to import the types needed for the plugin. Note in the configuration we've defined a custom property of "functionArea" to help organize our logs and make them easier to query.
 
 {% code title="azure-quickstart/data-access/graphql/index.ts" %}
 ```typescript

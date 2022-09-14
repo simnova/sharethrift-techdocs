@@ -36,8 +36,8 @@ Create the Front Door
   * Leave Session Affinity as **Disabled**
   * Set Web Application Firewall to **Enabled**
   * Policy: select **sharethrift**
-  * Click** Add**
-* In the configuration screen in** Backend Pools, click +**
+  * Click **Add**
+* In the configuration screen in **Backend Pools, click +**
   * For name: set to **sharethrift-data-access**
   * In Backends, click **+ add a backend**
     * Add the data-access in East US 2
@@ -54,12 +54,12 @@ Create the Front Door
       * Click Add
   * &#x20;in Health Probes specify&#x20;
     * Path: **/api/graphql/.well-known/apollo/server-health**
-    * Probe Method:** GET**
+    * Probe Method: **GET**
   * (leave the rest of the options the way they are)
-  * Click** Add**
-* In the configuration screen in** Routing Rules, click +**
-  * Name:** sharethrift-data-access**
-  * Accepted Protocol:** HTTPS only**
+  * Click **Add**
+* In the configuration screen in **Routing Rules, click +**
+  * Name: **sharethrift-data-access**
+  * Accepted Protocol: **HTTPS only**
   * **Patterns to match : (leave as is)**
   * **Route Type: Forward**
   * **Backend Pool: sharethrift-data-access**

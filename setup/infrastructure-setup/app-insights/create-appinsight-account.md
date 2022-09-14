@@ -14,16 +14,16 @@ In this project, logs will be stored using the centralized model, meaning all da
     * Name: **sharethrift<\<random number>>**
     * Region: **(US) East 2**
   * Click **Review+Create**
-  * Click** Create **(wait for it to complete)
+  * Click **Create** (wait for it to complete)
   * Click **Go to Resource** once completed
 
 #### Configure limits on Log Analytics to limit charges
 
-* In the Log Analytics workspace just created, navigate to the **Usage and Estimated Costs **in the left pane
+* In the Log Analytics workspace just created, navigate to the **Usage and Estimated Costs** in the left pane
 * Choose **Daily Cap** - and turn to **ON**,&#x20;
-  * Set the limit to **0.5 **GB Day
+  * Set the limit to **0.5** GB Day
   * Click **OK**
-* Choose **Data Retention **- and ensure it is set to **30 days** (should be by default)
+* Choose **Data Retention** - and ensure it is set to **30 days** (should be by default)
 
 ### Crate App Insights Resource
 
@@ -34,12 +34,12 @@ In this project, logs will be stored using the centralized model, meaning all da
 * Instance Details:
   * Name: **sharethrift**
   * Region: **(US) East 2**
-  * Resource Mode: **Workspace-based **
+  * Resource Mode: **Workspace-based**&#x20;
 * Workspace Details:
   * Select the appropriate Subscription
   * Log analytics workspace: **sharethrift \[eastus2]**
 * Click **Review+Create**
-* Click** Create **(wait for it to complete)
+* Click **Create** (wait for it to complete)
 
 #### US West 2
 
@@ -48,9 +48,9 @@ In this project, logs will be stored using the centralized model, meaning all da
 * Instance Details:
   * Name: **sharethriftwest**
   * Region: **(US) West 2**
-  * Resource Mode: **Workspace-based **
+  * Resource Mode: **Workspace-based**&#x20;
 * Workspace Details:
   * Select the appropriate Subscription
   * Log analytics workspace: **sharethrift \[eastus2]**
 * Click **Review+Create**
-* Click** Create **(wait for it to complete)
+* Click **Create** (wait for it to complete)

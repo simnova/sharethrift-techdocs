@@ -4,7 +4,7 @@
 
 TODO - Update this page... kinda crated a mess.
 
-You will need to have admin privileges on Azure Active Directory tenant_ _in your Azure account to continue. If you need too create a new tenant, follow the steps listed below.
+You will need to have admin privileges on Azure Active Directory tenant __ in your Azure account to continue. If you need too create a new tenant, follow the steps listed below.
 
 * Navigate to the [Create a tenant ](https://portal.azure.com/#blade/Microsoft\_AAD\_IAM/ActiveDirectoryMenuBlade/Overview)in the Azure Portal
 * Tenant Type : **Azure Active Directory**

@@ -88,6 +88,8 @@
   * [Localization](azure-active-directory-business-to-consumer-ad-b2c/localization.md)
   * [Abbreviations](azure-active-directory-business-to-consumer-ad-b2c/abbreviations.md)
   * [Azure AD B2C Extension](azure-active-directory-business-to-consumer-ad-b2c/azure-ad-b2c-extension.md)
+* [Cognitive Search](cognitive-search.md)
+* [Azure Maps](azure-maps.md)
 * [Cost Analysis](cost-analysis.md)
 * [Technical Architecture](technical-architecture/README.md)
   * [Identity and Access Control](technical-architecture/identity-and-access-control.md)
@@ -103,6 +105,7 @@
 ## Patterns and Practices
 
 * [Idempotent Messages](patterns-and-practices/itempotent-messages.md)
+* [Pathways](patterns-and-practices/pathways.md)
 
 ## Open Items
 

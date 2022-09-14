@@ -4,7 +4,7 @@
 
 Go to Azure Pipelines and go to the UI and add a new Variables:
 
-| ** Name**                            | Value                                                                           |
+|  **Name**                            | Value                                                                           |
 | ------------------------------------ | ------------------------------------------------------------------------------- |
 | REACT\_APP\_FUNCTION\_ENDPOINT       | <p>&#x3C;FRONT DOOR URL> <br>(e.g.: https://sharethrift&#x3C;>.azurefd.net)</p> |
 | REACT\_APP\_AAD\_APP\_CLIENTID       | <\<YOUR  AAD APP UI CLIENT ID>>                                                 |

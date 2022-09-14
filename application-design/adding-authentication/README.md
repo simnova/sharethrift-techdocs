@@ -12,4 +12,4 @@ Validate GraphAPI Calls in Apollo
 
 
 
-[https://woodgroveb2cdemo.azurewebsites.net/](https://woodgroveb2cdemo.azurewebsites.net)
+[https://woodgroveb2cdemo.azurewebsites.net/](https://woodgroveb2cdemo.azurewebsites.net/)

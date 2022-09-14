@@ -7,7 +7,7 @@
 Create an AAD Application for the UI:
 
 1. Go to the new [Azure portal - App registrations](https://portal.azure.com/#blade/Microsoft\_AAD\_RegisteredApps/) pane.
-2. Click** + New Registration**
+2. Click **+ New Registration**
    1. If prompted choose **Register in this Directory**
 3. Enter a "ShareThrift" for your application.
 4. Under **Supported account types**, select **Accounts in any organizational directory and personal Microsoft accounts**.
@@ -21,7 +21,7 @@ Configure AAD Application for the UI
 * In the AAD Application just created, navigate to Manage > **Authentication** in the navigation menu on the left.
 * In Platform Configurations, look for the  **Single Page Application**
 * in the section, **Redirect URIs**
-  * Click** Add URI **and add:** http://localhost:5000/**
+  * Click **Add URI** and add: **http://localhost:5000/**
 * Logout URL add:
   * (add the public URL from your CDN Endpoint, e.g https://sharethrift.azureedge.net) + /logged-out
 * Implicit Grant (leave checkboxes unchecked)
@@ -35,7 +35,7 @@ Configure AAD Application for the UI
 Create an AAD Application for the API:
 
 1. Go to the new [Azure portal - App registrations](https://portal.azure.com/#blade/Microsoft\_AAD\_RegisteredApps/) pane.
-2. Click** + New Registration**
+2. Click **+ New Registration**
    1. If prompted choose **Register in this Directory**
 3. Enter a "**ShareThrift**" for your application.
 4. Under **Supported account types**, select **Accounts in any organizational directory and personal Microsoft accounts**.
@@ -45,21 +45,21 @@ Create an AAD Application for the API:
 Expose an AAD Api / Add Client Application
 
 * Under **Manage** > Select **Expose An Api**
-* Application ID URI : Select **Set **and&#x20;
+* Application ID URI : Select **Set** and&#x20;
   * choose a value like api://sharethrift\<randomnumber>.com
   * click Save
-* Scopes defined by this API : click **+ Add a scope, **the add a scope pane showed.
+* Scopes defined by this API : click **+ Add a scope,** the add a scope pane showed.
   * Scope Name: **access\_as\_user**
   * Who can consent: **Admins and users**
   * Admin consent display name: **Access ShareThrift API**
   * Admin consent description: **Allows the app to access the ShareThrift API as the signed-in user.**
   * User consent display name: **Access ShareThrift API**
   * User consent description: **Allow the application to access the ShareThrift API on your behalf.**
-  * State:** Enabled**
-  * Click **Add Scope **(the pane will disappear)
+  * State: **Enabled**
+  * Click **Add Scope** (the pane will disappear)
 * Authorized Client Applications
   * Click **Add a client application**
-  * Paste in the **Application (client id) **value from the AAD Application for the UI
+  * Paste in the **Application (client id)** value from the AAD Application for the UI
   * Check the  the **api://sharethrift\<randomnumber>.com/access\_as\_user** scope you just created.
   * Click Save
 
@@ -138,10 +138,10 @@ Add A user to the role for both applications
 * Under **Manage** > Select **Enterprise Applications**
 * Select **ShareThrift** from the list of applications
 * Under **Manage** > Select **Users and groups**
-* Choose** Add Users**
-* For users - select** yourself**
-* Select Role: select** Moderator**
-* Click** Assign**
+* Choose **Add Users**
+* For users - select **yourself**
+* Select Role: select **Moderator**
+* Click **Assign**
 
 
 

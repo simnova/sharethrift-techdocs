@@ -57,7 +57,7 @@ Select **Rules Engine** under Settings in the left pane. Add the following rules
         * HTTP header name: **Server**
     * Add Action "Append"
       * Choose
-        * HTTP header name: **X-Content-Type-Options **
+        * HTTP header name: **X-Content-Type-Options**&#x20;
         * HTTP header value**: nosniff**
 
 

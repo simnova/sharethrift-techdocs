@@ -52,6 +52,6 @@ The NodeJS community has excellent support for MongoDB and the maturity in worki
 
 #### Recommended Tools
 
-* [3T](https://robomongo.org) - Robo3T(free) / Studio3T(commercial)
+* [3T](https://robomongo.org/) - Robo3T(free) / Studio3T(commercial)
   * How to [Use Studio3T to connect to Cosmos](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-mongochef)
   * How to [Use Robo3T to connect to Cosmos](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-robomongo)

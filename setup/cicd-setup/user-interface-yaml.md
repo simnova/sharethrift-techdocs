@@ -25,7 +25,7 @@ Steps:
     * Name: **ui-qa**
     * Description: **The QA environment for the static website**
     * Resource: **none**
-    * Click** Create **(you will be taken to the new environment)
+    * Click **Create** (you will be taken to the new environment)
   * In the upper right corner, next to the Add resource button, click the **vertical ... button** and choose **Approvals and Checks**, the Approvals and checks screen will be displayed.
     * **Add Approvers**
       * Click **+** in the upper right, the _Add check_ dialog will show
@@ -37,15 +37,15 @@ Steps:
           * Minimum number of approvals required: **1**
           * Allow approvers to approve their own runs: **(checked)**
         * Control options:
-          * Timeout:** 30 Days**
-        * Click** Create**
+          * Timeout: **30 Days**
+        * Click **Create**
     * **Add Exclusive Lock**
       * Click **+** in the upper right, the Add check dialog will show
         * Choose **Exclusive Lock**
         * Click **Next**,&#x20;
         * Accept defaults and Click **Create**
-        * Click** <-  **(back arrow) at the top of the screen to return to the environment again.
-        * Click** <-  **(back arrow) at the top of the screen to return to the environments list.
+        * Click **<-**  (back arrow) at the top of the screen to return to the environment again.
+        * Click **<-**  (back arrow) at the top of the screen to return to the environments list.
 * Repeat the same process above but replace _**QA**_ with _**Prod**_
 
 Add 3 files to your repo - check in:
@@ -61,12 +61,12 @@ Add 3 files to your repo - check in:
   * When asked _Where is your code?_, choose **GitHub**
   * (You may be prompted to authorize access to your GitHub Account, if needed, do so)
   * Select a repository:  **<\<choose the appropriate repo where you've stored your code.>>**
-  * Configure your pipeline: **Existing Azure Pipelines YAML file **(a blade will show)
+  * Configure your pipeline: **Existing Azure Pipelines YAML file** (a blade will show)
     * Select an existing YAML file
-    * Branch:** master**
-    * Path:** /ui/azure-pipelines.yml**
-    * Click** Continue - **you will be able to _Review your pipeline YAML_
-  * Click** Variables -> New Variable**
+    * Branch: **master**
+    * Path: **/ui/azure-pipelines.yml**
+    * Click **Continue -** you will be able to _Review your pipeline YAML_
+  * Click **Variables -> New Variable**
     * **TODO: Document all variables to add**
     * **Run -> Save (wait while pipeline is created)**
   * You will be prompted to select your Azure DevOps Project you created earlier (sharethrift)

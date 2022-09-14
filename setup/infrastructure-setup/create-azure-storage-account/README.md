@@ -20,18 +20,18 @@ Azure functions also rely on Azure Storage, one of these be used for the website
   * Select the subscription and the **rg-sharethrift** Resource Group created earlier.
   * Instance details:
     * Storage account name: _**sharethriftwest<\<some random number>>**_
-      * _Be sure to replace <\<some-random-number>> with a value, e.g. sharethriftwest123. Since storage account names need to be globally unique, you may need to try a few times before getting an unused number. _
-    * Location: **(US) West US 2 **
+      * _Be sure to replace <\<some-random-number>> with a value, e.g. sharethriftwest123. Since storage account names need to be globally unique, you may need to try a few times before getting an unused number._&#x20;
+    * Location: **(US) West US 2**&#x20;
     * Performance: **Standard**
     * Account kind: **StorageV2** (**general purpose V2)**
     * Replication: **Read-access geo-zone redundant storage RA-GRS**
-    * Click** Next : Networking**
+    * Click **Next : Networking**
   * Network connectivity
-    * Connectivity method:** Private Endpoint**
+    * Connectivity method: **Private Endpoint**
     * Private Endpoint: \<don't add anything at this time>
     * Network Routing: **Microsoft network routing (default)**
-  * Click** Review + Create**
-    * Click:** Create **(wait for it to be created)
+  * Click **Review + Create**
+    * Click: **Create** (wait for it to be created)
 
 #### Storage Account for Static Website and Azure Function (US EAST2)
 
@@ -39,19 +39,19 @@ Azure functions also rely on Azure Storage, one of these be used for the website
   * Select the subscription and the **rg-sharethrift** Resource Group created earlier.
   * Instance details:
     * Storage account name: _**sharethrift<\<some random number>>**_
-      * _Be sure to replace <\<some-random-number>> with a value, e.g. sharethrift123. Since storage account names need to be globally unique, you may need to try a few times before getting an unused number. _
+      * _Be sure to replace <\<some-random-number>> with a value, e.g. sharethrift123. Since storage account names need to be globally unique, you may need to try a few times before getting an unused number._&#x20;
     * Location: **(US) East US 2**
     * Performance: **Standard**
     * Account kind: **General Purpose V2**
     * Replication: **Read-access geo-zone redundant storage RA-GZRS**
-    * Click** Next : Networking**
+    * Click **Next : Networking**
   * Network connectivity
-    * Connectivity method:** Public (all networks)**
+    * Connectivity method: **Public (all networks)**
     * Private Endpoint: \<don't add anything at this time>
     * Network Routing: **Microsoft network routing (default)**
-  * Click** Review + Create**
-    * Click:** Create **(wait for it to be created)
-    * Click:** Go to Resource **
+  * Click **Review + Create**
+    * Click: **Create** (wait for it to be created)
+    * Click: **Go to Resource**&#x20;
 
 ### **Enable Static Website**
 
@@ -70,13 +70,13 @@ Azure functions also rely on Azure Storage, one of these be used for the website
 * CDN endpoint name:
   * _**sharethrift-<\<some random number>>(static website)**_
 * Origin Hostname (select the option with (**static website**) from the dropdown):&#x20;
-* _Click** Create (**wait)_
+* _Click **Create (**wait)_
 
 ### Create Multi-Origin CDN
 
 * While still in the storage account you created, select  Settings > Geo-replication in the navigation menu on the left
   * Under Storage Endpoints click **View All**
-  * Note the **Secondary static website endpoint **(copy to a text document)
+  * Note the **Secondary static website endpoint** (copy to a text document)
 * Navigate to the CDN just created
 * **Create Origin Group**
   * Under Settings > Origin - click **+ Create Origin Group**, Add Origin Group panel shows
@@ -87,7 +87,7 @@ Azure functions also rely on Azure Storage, one of these be used for the website
     * Probe protocol: **HTTPS**
     * Probe method: **Get**
     * Default origin group: **(checked)**
-    * Click** Add **_(wait)_
+    * Click **Add** _(wait)_
 * **Add Second Origin**
   * Still within Settings > Origin - click **+ Create Origin** (the Add Origin panel shows)
     * Name: **sharethrift-secondary-blob-core-windows-net**
@@ -99,12 +99,12 @@ Azure functions also rely on Azure Storage, one of these be used for the website
     * Priority: **1**
     * Weight: **1000**
     * Enabled: **(checked)**
-    * Click** Add **_(wait)_
+    * Click **Add** _(wait)_
 * **Assign Second Origin to Origin Group**
-  * Select the** sharethrift-blobgroup **you created earlier (Update Origin Group pane shows)
+  * Select the **sharethrift-blobgroup** you created earlier (Update Origin Group pane shows)
   * Under Origins click **+ Select Origin**, a _Select and origin to add_ dialog appears
     * Choose the second origin you just created from the dropdown and click **OK**
-  * Click** Save **(wait)
+  * Click **Save** (wait)
 
 (Optional) Add Custom Domain to the CDN
 
@@ -119,7 +119,7 @@ Azure functions also rely on Azure Storage, one of these be used for the website
         * CNAME: **www**
         * Points to: **<\<endpoint hostname>>**
   * Custom hostname: **<\<your domain name e.g.: www.sharethrift.com>>**
-  * Click** Add**
+  * Click **Add**
 * Add HTTPS to the domain
   * Select the custom domain you just created
   * Custom domain HTTPS: On

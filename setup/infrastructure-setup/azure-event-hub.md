@@ -59,8 +59,8 @@ To create Consumer Groups under a specific Event Hub,&#x20;
 2. Under "**Entities**" section, select "**Consumer groups**"
 3. By default, there would be "**$Default**" consumer group.
 4. Click "+ Consumer group"
-5. Enter the name of Consumer, "**Inventory**" and click **Create **button
-6. Enter another Consumer, "**Payment**" and click **Create **button
+5. Enter the name of Consumer, "**Inventory**" and click **Create** button
+6. Enter another Consumer, "**Payment**" and click **Create** button
 
 ### Security
 
@@ -70,6 +70,6 @@ By default, "Event Hubs Namespace" will have primary/secondary keys along with i
 2. Under **Settings**, select **Shared access policies**
 3. Click **+Add**
 4. Give Policy name**: SalesSharedAccessKey**
-5. Select **Manage **and click **Create **button
+5. Select **Manage** and click **Create** button
 6. It will generate New Primary/Secondary Keys along with its connection string which can be copied by selecting **SalesSharedAccessKey**
-7. Use the **connection string** in your** producer / consumer **systems
+7. Use the **connection string** in your **producer / consumer** systems

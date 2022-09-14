@@ -196,8 +196,8 @@ Open the data-access function App
     * Name: APOLLO\_PLAYGROUND\_URI
       * Value: <\<AZURE FRONT DOOR URL>>/api/graphql \
         (e.g.: https://sharethrift<\<random number>>.azurefd.net/api/graphql)
-* Choose** Save**
-* Choose** Continue **(wait until completion)
+* Choose **Save**
+* Choose **Continue** (wait until completion)
 
 Repeat the same steps for the data-access-west function app.
 

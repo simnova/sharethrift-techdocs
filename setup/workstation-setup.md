@@ -16,7 +16,7 @@ While the following may seem tedious, going through this process will save you h
   * Windows - ([reference](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/))
     * Uninstall any versions of Node.js (from programs)
     * Delete any Node.js installation directories (ex: C:\Program Files\nodejs)
-    *   Delete the existing npm install location (such as `C:\Users\<user>\AppData\Roaming\npm `
+    *   Delete the existing npm install location (such as `C:\Users\<user>\AppData\Roaming\npm`&#x20;
 
         `C:\Users\<user>\AppData\Roaming\npm_cache`)
     * Download the latest release of [NVM-Windows](https://github.com/coreybutler/nvm-windows/releases) (nvm-setup.zip)
@@ -39,7 +39,7 @@ While the following may seem tedious, going through this process will save you h
 * [CosmosDB Emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)
   * Start up using command line or batch file:
     * `"C:\Program Files\Azure Cosmos DB Emulator\Microsoft.Azure.Cosmos.Emulator.exe" /EnableMongoDbEndpoint=4.0`
-* [Visual Studio Code](https://code.visualstudio.com)
+* [Visual Studio Code](https://code.visualstudio.com/)
   * `code --version`
     * should return 1.49.1 or greater
   *   Install these Visual Studio Code Plugins:
