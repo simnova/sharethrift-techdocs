@@ -41,7 +41,6 @@
 * [CICD and Source Control](setup/cicd-setup/README.md)
   * [Untitled](setup/cicd-setup/untitled.md)
   * [Azure DevOps](setup/cicd-setup/azure-devops.md)
-  * [StaticWebApp](setup/cicd-setup/staticwebapp.md)
   * [SonarCloud](setup/cicd-setup/sonarcloud/README.md)
     * [Incorporate into Yaml](setup/cicd-setup/sonarcloud/incorporate-into-yaml.md)
   * [User Interface YAML](setup/cicd-setup/user-interface-yaml.md)
@@ -89,7 +88,6 @@
   * [Abbreviations](azure-active-directory-business-to-consumer-ad-b2c/abbreviations.md)
   * [Azure AD B2C Extension](azure-active-directory-business-to-consumer-ad-b2c/azure-ad-b2c-extension.md)
 * [Cognitive Search](cognitive-search.md)
-* [Azure Maps](azure-maps.md)
 * [Cost Analysis](cost-analysis.md)
 * [Technical Architecture](technical-architecture/README.md)
   * [Identity and Access Control](technical-architecture/identity-and-access-control.md)
@@ -118,3 +116,8 @@
 ## DDD
 
 * [Page 1](ddd/page-1.md)
+
+## Experimental
+
+* [StaticWebApp](experimental/staticwebapp.md)
+* [Azure Maps](experimental/azure-maps.md)

@@ -16,7 +16,7 @@ A collection of geospatial services provided by Microsoft Azure. Used in Owner C
 
 ### Search Completion Implementation
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Getting the SAS Token
 
@@ -38,7 +38,7 @@ When there is a change in the search bar, it will requery the API and generate n
 
 Example:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 For reference, owner-community can be found here:
 
