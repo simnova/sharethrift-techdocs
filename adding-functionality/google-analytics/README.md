@@ -16,7 +16,7 @@ What follows is a guide for implementing **gtag.js** into the codebase, this is 
 
 ## Prerequisites
 
-GA4 Measurement ID&#x20;
+[GA4 Measurement ID ](create-analytics.md)
 
 ## Setup
 

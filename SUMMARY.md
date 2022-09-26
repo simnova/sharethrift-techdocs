@@ -94,7 +94,8 @@
 
 ## Adding Functionality
 
-* [Google Analytics](adding-functionality/google-analytics.md)
+* [Google Analytics](adding-functionality/google-analytics/README.md)
+  * [Create Analytics](adding-functionality/google-analytics/create-analytics.md)
 * [DAPR](adding-functionality/dapr/README.md)
   * [DAPR setup](adding-functionality/dapr/dapr-setup.md)
   * [DAPR Services (ignore for now)](adding-functionality/dapr/dapr-services/README.md)
