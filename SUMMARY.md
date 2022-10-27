@@ -18,6 +18,7 @@
   * [Full Stack Debugging](setup/introduction/full-stack-debuggons.md)
   * [Creating GitHub Project](setup/introduction/creating-github-project.md)
 * [Infrastructure](setup/infrastructure-setup/README.md)
+  * [Configure Session Behavior](setup/infrastructure-setup/configure-session-behavior.md)
   * [Create AAD Tenant](setup/infrastructure-setup/create-aad-tenant.md)
   * [Resource Group](setup/infrastructure-setup/resource-group.md)
   * [Create AAD B2C Instance](setup/infrastructure-setup/create-aad-b2c-instance/README.md)
