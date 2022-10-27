@@ -12,7 +12,11 @@ Select the repository in question
 
 Select Node.js with React
 
+(for Monorepo) - update the location of azure-pipelines.yml file to your project dir
 
+
+
+(for Monorepo) - update the location of azure-pipelines.yml file to your project dir
 
 
 

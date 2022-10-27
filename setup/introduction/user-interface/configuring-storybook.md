@@ -16,7 +16,7 @@ npm install -D @testing-library/react
 npm install -D @storybook/testing-react
 npm install -D @testing-library/user-event
 npm install -D @storybook/addon-jest
-npm install -D storybook-zeplin
+# npm install -D storybook-zeplin
 npm install -D storybook-addon-customize-antd-theme
 ```
 {% endcode %}

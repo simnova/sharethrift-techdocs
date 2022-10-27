@@ -80,6 +80,8 @@ module.exports = {
 
 Update package.json to use craco instead of react-scripts
 
+(update storybook port number as per your settings)
+
 {% code title="ui/package.json" %}
 ```
 ...

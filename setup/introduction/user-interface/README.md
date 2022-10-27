@@ -38,7 +38,7 @@ npm install antd
 
 
 #npm i prop-types @types/prop-types
-npx sb init --builder webpack5
+npx sb init --builder webpack5 # select NO if asked for npm7 migration
 ##npx -p @storybook/cli sb init
 npm i -D @storybook/addons @storybook/theming chromatic
 ##npm i -D storybook-addon-playwright
@@ -60,6 +60,8 @@ In VSCode, In the left panel, go to the run tab. Click **create a launch.json fi
 ![](<../../../.gitbook/assets/image (4).png>)
 
 Edit the **launch.json** file
+
+(update port number as per your settings)
 
 {% code title="azure-quickstart/ui/.vscode/launch.json" %}
 ```javascript
@@ -101,6 +103,8 @@ Edit the **launch.json** file
 {% endcode %}
 
 Add a **tasks.json** file
+
+(update port number as per your settings)
 
 {% code title="azure-quickstart/ui/.vscode/task.json" %}
 ```javascript
@@ -172,6 +176,8 @@ BROWSER=none
 In a multi-developer scenario developers will use `.env.local`, we'll only add default and non-sensitive values to the .env file
 
 Go Ahead and launch the website by using VSCode Debugger.
+
+Note: If the browser window does not open when you launch it from VSCode, then try removing "Browser=none" entry from .env file and relaunching app. This issue may occur when you already have a browser open from another app launch (such as Storybook)
 
 #### Additional Reading:
 

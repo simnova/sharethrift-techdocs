@@ -33,7 +33,7 @@ git init .
 ```
 git add .
 git commit -m "initial commit"
-git branch -m master main
+git branch -m master main # this step is no longer needed [2022-10-18]
 ```
 
 ### Add Remote
@@ -49,5 +49,6 @@ git remote add origin <<remote url>>
 \*Note: You may need to do this step from VSCode
 
 ```
-git push origin main
+git branch -M main
+git push -u origin main
 ```

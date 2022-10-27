@@ -107,6 +107,18 @@
 
 * [Idempotent Messages](patterns-and-practices/itempotent-messages.md)
 * [Pathways](patterns-and-practices/pathways.md)
+* [DDD](patterns-and-practices/ddd/README.md)
+  * [Initial Setup](patterns-and-practices/ddd/initial-setup/README.md)
+    * [Aggregate Root](patterns-and-practices/ddd/initial-setup/aggregate-root.md)
+    * [Entity](patterns-and-practices/ddd/initial-setup/entity.md)
+    * [Value Object](patterns-and-practices/ddd/initial-setup/value-object.md)
+  * [Field Types](patterns-and-practices/ddd/field-types/README.md)
+    * [Primitive Types](patterns-and-practices/ddd/field-types/primitive-types.md)
+    * [Non-Primitive Types](patterns-and-practices/ddd/field-types/non-primitive-types/README.md)
+      * [Types.DocumentArray](patterns-and-practices/ddd/field-types/non-primitive-types/types.documentarray.md)
+      * [PopulatedDoc](patterns-and-practices/ddd/field-types/non-primitive-types/populateddoc.md)
+      * [Custom Types](patterns-and-practices/ddd/field-types/non-primitive-types/custom-types.md)
+  * [Example Walkthrough](patterns-and-practices/ddd/example-walkthrough.md)
 
 ## Open Items
 
