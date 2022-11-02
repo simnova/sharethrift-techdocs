@@ -30,15 +30,17 @@ npm i -D mongodb-memory-server
 
 ```
 
-Launch VSCode
+In VSCode choose File -> Add Folder to Workspace, choose `data-access`.
 
-```bash
-code .
-```
+
 
 VS Code should recognize that this is an Azure Functions Project, and click "Yes" to the dialog.
 
 ![](<../../.gitbook/assets/image (13).png>)
+
+Choose File -> Save Workspace As...  change the file name to `sharethrift.code-workspace` and save  in the `serverless-quickstart` directory.
+
+
 
 edit the .vscode/launch.json file and change the port to 9230 as [port 9090 is used by Dapr for metrics](https://docs.dapr.io/developing-applications/building-blocks/observability/metrics/), and we don't want do have each developer modify their Dapr configuration.
 
