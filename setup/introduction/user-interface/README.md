@@ -19,7 +19,7 @@ From the `azure-quickstart` directory open a command prompt or console and issue
 
 {% code title="Terminal / Command Propt" %}
 ```bash
-npm uninstall -g create-react-app
+
 npx create-react-app ui --template typescript
 cd ui
 
