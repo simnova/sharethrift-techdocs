@@ -26,7 +26,9 @@ Each entity **requires:**
 import { Entity, EntityProps } from "../../shared/entity";
 import { DomainExecutionContext } from "../context";
 
-export interface PhysicianLicenseProps extends EntityProps {}
+export interface PhysicianLicenseProps extends EntityProps {
+  // Add fields according to the model
+}
 
 export interface PhysicianLicenseEntityReference extends Readonly<PhysicianLicenseProps> {}
 
@@ -35,6 +37,7 @@ export class PhysicianLicense<props extends PhysicianLicenseProps>
   constructor(props: props, private readonly context: DomainExecutionContext) { 
     super(props);
   }
+  // Add getters and setters for the field that was mentioned/defined above
 }
 ```
 {% endcode %}
@@ -49,6 +52,8 @@ export class PhysicianLicense<props extends PhysicianLicenseProps>
 class PhysicianLicenseDomainAdapter implements PhysicianLicenseProps {
   constructor(public readonly doc: PhysicianLicense) {}
   get id() { return this.doc.id.valueOf() as string; }
+  
+  // Add getters and setters for the field that was mentioned/defined in Domain Context file
 }
 ```
 {% endcode %}

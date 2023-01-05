@@ -26,7 +26,9 @@ Each value object **requires:**
 import { ValueObject, ValueObjectProps } from "../../shared/value-object";
 import { DomainExecutionContext } from "../context";
 
-export interface MinicexRequestProps extends ValueObjectProps{}
+export interface MinicexRequestProps extends ValueObjectProps{
+  // Add fields according to the model
+}
 
 export interface MinicexRequestEntityReference extends Readonly<MinicexRequestProps> {}
 
@@ -35,6 +37,7 @@ export class MinicexRequest
   constructor(props: props, private readonly context: DomainExecutionContext) { 
     super(props);
   }
+  // Add getters and setters for the field that was mentioned/defined above
 }
 ```
 {% endcode %}
@@ -47,6 +50,8 @@ export class MinicexRequest
 ```typescript
 export class MinicexRequestDomainAdapter implements MinicexRequestProps {
   constructor(private readonly props: MinicexRequest) {}
+  
+  // Add getters and setters for the field that was mentioned/defined in Domain Context file
 }
 ```
 
