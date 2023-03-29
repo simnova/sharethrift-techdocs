@@ -30,7 +30,9 @@ import { AggregateRoot } from "../../shared/aggregate-root";
 import { EntityProps } from "../../shared/entity";
 import { DomainExecutionContext } from "../context";
 
-export interface PhysicianProps extends EntityProps {}
+export interface PhysicianProps extends EntityProps {
+  // Add fields according to the model
+}
 
 export interface PhysicianEntityReference extends Readonly<PhysicianProps> {}
 
@@ -39,6 +41,7 @@ export class Physician<props extends PhysicianProps>
   constructor(props: props, private readonly context: DomainExecutionContext) { 
     super(props);
   }
+  // Add getters and setters for the field that was mentioned/defined above
 }
 ```
 {% endcode %}
