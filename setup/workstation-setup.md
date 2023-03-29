@@ -65,6 +65,12 @@ While the following may seem tedious, going through this process will save you h
   * [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   * [GIT Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  * [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+* Github Copilot
+  * Instructions to get free Copilot (only for students): [https://dev.to/twizelissa/how-to-enable-github-copilot-for-free-as-student-4kal](https://dev.to/twizelissa/how-to-enable-github-copilot-for-free-as-student-4kal)
+  * Install following VS Code Extensions:
+    * [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+    * [Github Copilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
 
 
 
