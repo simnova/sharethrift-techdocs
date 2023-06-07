@@ -32,10 +32,10 @@ While the following may seem tedious, going through this process will save you h
     * should return 5.0.400 or greater
 * [Azure Functions Core Tools](https://github.com/Azure/azure-functions-core-tools)
   * `func --version`
-    * should return 3.0.347 or greater
+    * should return 4.0.5198 or greater
   * [Install Guide](https://github.com/Azure/azure-functions-core-tools#installing)
     * to upgrade: (mac)
-      * brew upgrade azure-functions-core-tools@3
+      * brew upgrade azure-functions-core-tools@4
 * [CosmosDB Emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)
   * Start up using command line or batch file:
     * `"C:\Program Files\Azure Cosmos DB Emulator\Microsoft.Azure.Cosmos.Emulator.exe" /EnableMongoDbEndpoint=4.0`
