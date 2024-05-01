@@ -30,20 +30,26 @@ The following explains the process for adding SonarCloud to your project:
 * While logged into SonarCloud website:
 * Click the + icon to the left of your name in the upper right of the screen, and&#x20;
   * Choose **Analyze a new project** from the menu (you may see an error message, it can be ignored)
-  * Click the **Create a project manually** link **** in the lower left of the screen.
+  * Click the **Create a project manually** link in the lower left of the screen.
   * The create project screen shows:
     * Organization: <\<select the organization you created earlier>>
     * Project Key: sharethrift-ui
     * Display Name: sharethrift-ui
-    * Public / Private: <\<public for free>>
-    * Click the **Set Up** button (ignore the screen that shows afterwards)
+    * Public / Private: Private
+    * Click the **Next** button
+    * On the next page choose **Previous version**
+    * Click **Create project**
 * Navigate to the newly created project
   * On the vertical navigation, choose **Branches**
-  * Click on the **Gear** icon to the right of the master branch and choose **Rename Branch**
+  * Click on the **3 dots** icon to the right of the master branch and choose **Rename Branch**
     * Rename to "**main**" and click the **Rename** button
-  * **Quality Gates**
-    * On the vertical navigation, choose Administration > Quality Gate
-    * Choose the "Pathways" Quality Gate
+  * Click on **Administration** in the lower left and choose **Quality Gate**
+    * Click the **Organization's settings** link at the top if setting is not already in the list
+    * Click on the 3 dots icon in the upper right and choose **Copy**
+    * Give the new quality gate the name of your project
+    * Click Copy
+    * Navigate back to your project and on the left vertical navigation, choose Administration > Quality Gate
+    * Choose the new gate you created
 * Repeat the process above with the following Project Key/ Display Names:
   * sharethrift-data-access
 
