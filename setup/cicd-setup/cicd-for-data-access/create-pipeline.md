@@ -40,6 +40,16 @@ Choose Save and Queue
 
 
 
+## Uncheck Shallow Fetch
+
+* On the pipeline page you just created, click **Edit** in the upper right
+* Click on the **3 dots** icon in the upper right and choose **Triggers**
+* Click on the **YAML** tab
+* Click **Get sources**
+* Ensure the **Select a source** section has **GiHub** highlighted
+* Scroll down and uncheck **Shallow fetch**
+* Save your changes
+
 
 
 
