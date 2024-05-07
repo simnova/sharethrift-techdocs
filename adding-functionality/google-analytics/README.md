@@ -34,7 +34,8 @@ Fill out the following:
 
 Click **Next**
 
-Check **Large - 101 to 500 employees**
+* Industry category: **Jobs & Education**
+* Check **Large - 101 to 500 employees**
 
 Click **Next**
 
