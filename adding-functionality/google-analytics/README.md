@@ -20,7 +20,7 @@ What follows is a guide for implementing **gtag.js** into the codebase, this is 
 
 
 
-## How To Create The G Tag
+## How To Create The G Measurement ID
 
 Head over to [Google Analytics](https://analytics.google.com/) and log in. (If you don't have a log in, talk to Patrick or Eddie)
 
@@ -39,7 +39,9 @@ Click **Next**
 
 Click **Next**
 
-jkl;
+Enter the website url in both the **Website URL** textbox and the **Stream name** textbox
+
+Click **Create stream**
 
 ## Setup
 
