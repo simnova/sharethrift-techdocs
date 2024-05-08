@@ -24,7 +24,9 @@ What follows is a guide for implementing **gtag.js** into the codebase, this is 
 
 Head over to [Google Analytics](https://analytics.google.com/) and log in. (If you don't have a log in, talk to Patrick or Eddie)
 
-Once logged in, click on **+ Create** and choose **Property**.&#x20;
+Once logged in, click on the Admin gear to the lower left of the page
+
+Click on **+ Create** and choose **Property**.&#x20;
 
 Fill out the following:
 
