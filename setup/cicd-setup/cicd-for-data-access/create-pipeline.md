@@ -1,51 +1,23 @@
 # Create Pipeline
 
+## Create Pipeline in Azure DevOps
 
+* Head over to [Azure DevOps](https://dev.azure.com/ECFMGTFS/BusinessTransformation) >> Pipelines
+* Click **New pipeline** button
+* Select **GitHub**
+* Choose the repository for the new pipeline (if you can't find it, change **My repositories** to **All repositories**)
+* Select **Existing Azure Pipelines YAML file**
+* On the Select an existing YAML file screen choose:
+  * Branch: main
+  * Path: _<\<path to azure-pipelines.yml>>_
+* Click **Continue**
+* Click **Run**
 
-Head over to [Azure DevOps](https://dev.azure.com/ECFMGTFS/BusinessTransformation) >> Pipelines
+**NOTE: The first run may **<mark style="color:red;">**FAIL**</mark>** you have not already created the environment(s) yet**
 
-Click **New pipeline** button
+## **Create Environment**
 
-Select **GitHub**
-
-Choose the repository for the new pipeline (if you can't find it, change **My repositories** to **All repositories**)
-
-Select **Existing Azure Pipelines YAML file**
-
-On the Select an existing YAML file screen choose:
-
-* Branch: main
-* Path: _<\<path to azure-pipelines.yml>>_
-
-Click **Continue**
-
-Click **Run**
-
-It should fail on the first run because we haven't created the environment(s) yet
-
-
-
-TO DO: Review below steps for possible update
-
-Save and run (We will be overwriting this file later on)
-
-Select the pipeline, Click the Edit button.
-
-Click the vertical "..." (More actions) button next to Run in the upper right corner and select Triggers from the dropdown menu
-
-Select Pull Request Validation
-
-Check "Override the YAML pull request trigger from here"
-
-Under Path Filters click "Add"&#x20;
-
-Type "Include" &#x20;
-
-Path Specification : /data-access
-
-Choose Save and Queue
-
-
+* TO DO
 
 ## Uncheck Shallow Fetch
 
