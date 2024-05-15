@@ -1,21 +1,26 @@
 # Create Analytics
 
-Log into Google Analytics&#x20;
+## How To Create The G Tag
 
-Navigate to Admin (Gear on bottom left corner)&#x20;
+Head over to [Google Analytics](https://analytics.google.com/) and log in. (If you don't have a log in, talk to Patrick or Eddie)
 
-Select account "ECFMG"
+Once logged in, click on **+ Create** and choose **Property**.&#x20;
 
-* \+ Create Property Property Name: <>-portal-<> ex: pathways-applicant-portal-qa&#x20;
-* Reporting time zone: New York Time&#x20;
-* Create
+Fill out the following:
 
-Go to Data Streams&#x20;
+* **Property name:** _<3 digit project designation>_-_\<root folder name in the mono repo>_-_\<environment>_
+* **Reporting time zone**: New York Time
+* **Currency:** US Dollar
 
-Click Web&#x20;
+Click **Next**
 
-* Supply website url&#x20;
-* Stream Name: name of the project being analyzed&#x20;
-* Save
+* Industry category: **Jobs & Education**
+* Check **Large - 101 to 500 employees**
+
+Click **Next**
+
+On the next page check **Examine user behavior**
+
+Click **Create**
 
 The measurement id will be used to connect the front end portal
