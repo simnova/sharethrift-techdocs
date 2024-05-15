@@ -2,23 +2,30 @@
 
 
 
-Add new pipeline
+Head over to [Azure DevOps](https://dev.azure.com/ECFMGTFS/BusinessTransformation) >> Pipelines
 
-Select github repository
+Click **New pipeline** button
 
-Authorize github permissions
+Select **GitHub**
 
-Select the repository in question
+Choose the repository for the new pipeline (if you can't find it, change **My repositories** to **All repositories**)
 
-Select Node.js with React
+Select **Existing Azure Pipelines YAML file**
 
-(for Monorepo) - update the location of azure-pipelines.yml file to your project dir
+On the Select an existing YAML file screen choose:
+
+* Branch: main
+* Path: _<\<path to azure-pipelines.yml>>_
+
+Click **Continue**
+
+Click **Run**
+
+It should fail on the first run because we haven't created the environment(s) yet
 
 
 
-(for Monorepo) - update the location of azure-pipelines.yml file to your project dir
-
-
+TO DO: Review below steps for possible update
 
 Save and run (We will be overwriting this file later on)
 
