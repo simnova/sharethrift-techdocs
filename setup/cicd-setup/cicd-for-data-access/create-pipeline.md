@@ -13,11 +13,15 @@
 * Click **Continue**
 * Click **Run**
 
-**NOTE: The first run may **<mark style="color:red;">**FAIL**</mark>** you have not already created the environment(s) yet**
+**NOTE: The first run may **<mark style="color:red;">**FAIL**</mark>** if you have not already created the environment(s) yet, or unchecked shallow fetch**
 
 ## **Create Environment**
 
-* TO DO
+* Head over to [Azure DevOps](https://dev.azure.com/ECFMGTFS/BusinessTransformation) >> Pipelines >> Environments
+* Click **New environment**
+* Fill out the **Name** and **Description**
+* For **Resource** choose **None**
+* Click **Create**
 
 ## Uncheck Shallow Fetch
 
