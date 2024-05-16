@@ -52,13 +52,13 @@ REACT_APP_GA_MEASUREMENT_ID=<<your GA4 measurement ID>>
 
 * Vite
 
+{% code title="/azure-quickstart/ui/.env" %}
 ```bash
-/azure-quickstart/ui/.env
-
 ...
 VITE_GA_MEASUREMENT_ID=<<your GA4 measurement ID>>
 ...
 ```
+{% endcode %}
 
 ### Initialize React Component
 
