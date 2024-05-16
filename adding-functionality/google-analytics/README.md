@@ -40,6 +40,8 @@ npm install ga-4-react
 
 Update .env file to include the GA4 Measurement ID.
 
+* Create React App
+
 {% code title="/azure-quickstart/ui/.env" %}
 ```bash
 ...
@@ -47,6 +49,16 @@ REACT_APP_GA_MEASUREMENT_ID=<<your GA4 measurement ID>>
 ...
 ```
 {% endcode %}
+
+* Vite
+
+```bash
+/azure-quickstart/ui/.env
+
+...
+VITE_GA_MEASUREMENT_ID=<<your GA4 measurement ID>>
+...
+```
 
 ### Initialize React Component
 
