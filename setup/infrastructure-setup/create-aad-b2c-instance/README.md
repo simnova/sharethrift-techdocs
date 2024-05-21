@@ -30,22 +30,23 @@ Switch to the new Directory by clicking your name in the upper right corner of t
 
 ### App Registration for Partner Portal
 
+Log in to your B2C tenant
 
+From the home page, search for and click on "Azure AD B2C"
 
-Choose **App registrations** in the menu on the left under the Manage category.
+Choose **App registrations** in the menu on the left pane under **Manage**.
 
-Choose **New registration**
+Click **New registration** at the top
 
 Register an application screen will show.
 
-* Name: **Sharethrift Partner Portal** \
-  **external verification**
-*   Supported account types: **Accounts in this organizational directory only (Sharethrift B2C Dev only - Single tenant)**
-
-    <mark style="color:red;">Note:</mark> If you want to test Custom Policies in Identity Experience Framework, you must choose:  **Accounts in any identity provider or organizational directory (for authenticating users with user flows)**
+* Name: _**<\<app-name>>**_
+* Supported account types: **Accounts in any identity provider or organizational directory (for authenticating users with user flows)**
 * Redirect URI:
   * Type Dropdown: **Single-page application (SPA)**
-  * URL: **http://localhost:4000**
+  *   URL: **http://localhost:**_**<\<port-number>>**_
+
+      _**<\<port-number>>**_ corresponds to the port that the app will run on locally
 * Permissions: **(leave default values set as-is)**
 * Click **Register**&#x20;
 
@@ -108,7 +109,7 @@ Click Add assignments (the add assignments blade will show)
 
 Search for **Sharethrift Account Management**, select it and click **Add**
 
-****
+
 
 ### **App Registration for IdentityExperienceFramework**
 
@@ -137,7 +138,7 @@ Add a scope (accept the default random name), Save and continue
 
 **Navigate back to the App Registrations under the Experience Framework by clicking on "identity experience framework" at the top of the screen**&#x20;
 
-****
+
 
 ### **App Registration for ProxyIdentityExperienceFramework**
 
@@ -221,7 +222,7 @@ Click Add, the popup blade on the right will show:
 * Key usage: **Signature**
 * **Click Create**
 
-****
+
 
 Add another key:
 
@@ -247,7 +248,7 @@ Click Add, the popup blade on the right will show:
 * Key usage: **Encryption**
 * **Click Create**
 
-****
+
 
 
 
