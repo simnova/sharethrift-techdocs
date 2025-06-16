@@ -595,7 +595,7 @@ set Property(property: PropertyEntityReference) {
 }
 ```
 
-For reference fields, the setter method takes in an Entity Reference as its argument and instead of setting t_his.props.\<referenceField>_, it uses the _set\<ReferenceField>Ref_ method and passes in the argument parameter to that function.
+For reference fields, the setter method takes in an Entity Reference as its argument and instead of setting &#x74;_&#x68;is.props.\<referenceField>_, it uses the _set\<ReferenceField>Ref_ method and passes in the argument parameter to that function.
 
 #### Prop Array Fields
 
